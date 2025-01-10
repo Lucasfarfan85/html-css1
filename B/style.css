@@ -1,0 +1,150 @@
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .diphylleia-regular {
+    font-family: "Diphylleia", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5FE3CD;
+    
+
+}
+
+p {
+    margin: 15px 0px 15px 0px;    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+}
+  
+
+header {
+    background-image: linear-gradient(to bottom, #36A5B6, #3A585E, #1C2426);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+   
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Diphylleia", serif;
+    text-shadow: 2px 3px 5px black;
+}
+
+header h2 {
+    color: white;
+    text-align: center;
+    font-family: "Diphylleia", serif;
+    text-shadow: 2px 3px 5px black;
+    margin-bottom: 10px;
+
+}
+nav {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1C2426;
+
+}
+nav a {
+    padding: 10px;
+    border-radius: 7px;  
+    font-family: "Pacifico", serif;
+    color:#FF4508;
+    margin-bottom: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+   
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    
+}
+
+a:hover {
+   background-color: #3A585E ;
+
+
+}
+
+main {
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #3A585E;
+    box-shadow: 4px 4px 17px black;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+main h1 {
+    
+
+    text-align: center;
+    font-size: 40px;
+    font-family: "Diphylleia", serif;
+}
+
+img {
+     width: 100%;
+}
+
+main h3 {
+    text-align: left;
+    font-family: "Pacifico", serif;
+}
+h2 {
+    background-image: linear-gradient(to right #48D7F7, transparent);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: "Diphylleia", serif;
+}
+
+div {
+    background-color: #805344;
+    margin: 0px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+footer {
+    background-color: #1C2426;
+    text-align: center;
+    margin: 10px 0%;
+    padding: 20px;
+}
+footer h3 {
+    text-align: center;
+}
