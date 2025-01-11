@@ -1,0 +1,88 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Sriracha&family=Tangerine:wght@400;700&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Playwrite AU SA", serif;
+    --fonte3: "Sriracha", serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    min-height: 100vh;
+     
+}
+header {
+    background-color: black;
+    padding: 10px;
+    
+
+}
+header h1 {
+    padding-top: 50px;
+    color: white;
+    font-family: var(--fonte2);
+    font-size: 7vw;
+    text-align: center;
+
+}
+
+header h2 {
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    font-family: var(--fonte2);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2vw;
+}
+
+section.normal{
+    font-family: var(--fonte2);
+    background-color: white;
+    color: black;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.603);
+    
+}
+
+section.imagem {
+    font-family: var(--fonte2);
+    background-image: url(imagens/ocean-5003864_1280.jpg);
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
