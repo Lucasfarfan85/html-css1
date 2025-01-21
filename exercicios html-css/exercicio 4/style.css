@@ -1,0 +1,62 @@
+
+*{ 
+    margin: 0px;
+    padding: opx;
+}
+
+body {
+    background-color: #9B9634;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #EFE400, #9B9634);
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+header h2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+main h1 {
+
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 470px;
+    left: 10px;  
+}
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2vw;
+    height: 200px;
+}
+section.normal{
+    background-color: white;
+    padding: 20px;
+    margin: 0px 10px 10px 10px;
+    height: 100%;
+    border-radius: 0px 0px 30px 30px;
+
+}
+section.foto{
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section#foto1{
+    background-image: url(fotos/fish-casserole-3314639_1280.jpg);
+
+
+}
