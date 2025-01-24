@@ -1,0 +1,15 @@
+body{
+    background-image: url(imagem/download.jpg);
+}
+h1 {
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+}
+main {
+    text-align: center;
+    background-color: white;
+    margin: auto;
+}
