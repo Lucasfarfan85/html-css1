@@ -1,0 +1,45 @@
+/* Estilo para telas */
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: grey;
+
+}
+ header h1 {
+    text-align: center;
+ }
+
+ menu ul{
+    background-color: black;
+    color: white;
+ }
+
+ menu li {
+    display: inline-block;
+    padding: 10px;
+ }
+
+ menu li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+ }
+
+ article {
+    width: 500px;
+    display: block;
+    margin: auto;
+    background-color: grey;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+
+ }
