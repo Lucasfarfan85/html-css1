@@ -28,12 +28,12 @@
     }
     section#login div#imagem {
         background-position: center center;
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section#login div#formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
     

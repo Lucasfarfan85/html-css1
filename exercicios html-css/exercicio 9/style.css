@@ -32,10 +32,10 @@ section#login {
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
-    transition: width .3s, heigth .3s;
+    transition: width .15s, heigth .1s;
     transition-timing-function: ease;
     
 }
@@ -50,4 +50,60 @@ section#login div#imagem {
 section#login div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+div#formulario p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 0.7em;
+}
+
+div.campo {
+    background-color: #A3794B;
+    height: 40px;
+    border-radius: 7px;
+    margin: 5px 0px;
+
+}
+
+label {
+    display: none;
+    
+}
+
+input.entrar {
+    margin-top: 10px;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #4B8CA3;
+    border-radius: 7px;
+}
+input.entrar:hover {
+    background-color: #2b4c58;
+    cursor: pointer;
+}
+
+a.botao {
+    margin-top: 5px;
+    background-color: white;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    border: 2px solid #4B8CA3 ;
+    border-radius: 7px;
+    text-decoration: none ;
+    color: black;
+}
+
+a.botao:hover {
+    background-color: #4B8CA3 ;
 }
