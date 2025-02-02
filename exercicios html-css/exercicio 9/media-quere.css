@@ -2,6 +2,9 @@
     section#login {
         width: 90vw;
     }
+    body {
+        margin: 30px;
+    }
     section#login div#imagem {
         background-position: right center;
         float: left;
