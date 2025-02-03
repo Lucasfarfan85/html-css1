@@ -115,6 +115,7 @@ input.entrar:hover {
 
 a.botao {
     margin-top: 5px;
+    padding: 5px;
     background-color: white;
     display: block;
     text-align: center;
@@ -124,6 +125,7 @@ a.botao {
     border-radius: 7px;
     text-decoration: none ;
     color: black;
+    
 }
 
 a.botao:hover {
