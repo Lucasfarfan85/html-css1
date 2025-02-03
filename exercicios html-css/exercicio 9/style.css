@@ -28,13 +28,14 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     overflow: hidden;
     background-color: white;
     width: 300px;
     height: 600px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+    transform: translate(-50%, -50%);
     transition: width .15s, heigth .1s;
     transition-timing-function: ease;
     
@@ -79,10 +80,10 @@ label {
 }
 
 span {
-   transform: translateY(6px);
+   
     font-size: 2em;
     width: 40px;
-    
+    transform: translateY(6px);
 }
 span#span2 {
     transform: translateY(6px);
