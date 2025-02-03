@@ -67,13 +67,35 @@ div#formulario p {
 div.campo {
     background-color: #A3794B;
     height: 40px;
-    border-radius: 7px;
+    border: 2px solid #A3794B ;
+    border-radius: 8px;
     margin: 5px 0px;
 
 }
 
 label {
     display: none;
+    
+}
+
+span {
+   transform: translateY(6px);
+    font-size: 2em;
+    width: 40px;
+    
+}
+span#span2 {
+    transform: translateY(6px);
+}
+
+div.campo input {
+    background-color: #4B8CA3;
+    font-size: 1em;
+    width: calc(100% - 44.5px);
+    height: 100%;
+    border: 8px;
+    border-radius: 8px;
+    padding: 4px;
     
 }
 
