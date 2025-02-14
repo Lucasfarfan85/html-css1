@@ -22,12 +22,15 @@ main {
     position: relative;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+
+
 }
 
 section#login {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+  
     
     overflow: hidden;
     background-color: white;
@@ -35,7 +38,7 @@ section#login {
     height: 600px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
-    transform: translate(-50%, -50%);
+   
     transition: width .15s, heigth .1s;
     transition-timing-function: ease;
     
