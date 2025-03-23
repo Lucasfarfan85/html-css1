@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #fff;
+    color: #fff;
+    font-size: 16px;
+    overflow: hidden;
+
+}
+header {
+    background-color:#013620;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+    
+}
+div.alinhamento {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+header img {
+    width: 100px;
+    padding: 10px;
+    margin-right: 50vw;
+    border-radius: 50px;
+}
+
+header a {
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    background-image: radial-gradient(#91c7ad,#062516);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+    
+}
+
+
+
+section div.lista {
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+}
+
+section div.lista::before {
+    content: "";
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top: 50%;
+    border-top: 1px solid #fff;
+}
+
+section div#item {
+    position: absolute;
+    inset: 0;
+}
+section div.bebidas{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    width: 40%;
+
+}
+section div.bebidas img {
+    width: 100%;
+    transform: rotate(-18deg);
+    
+}
+
+section div.content {
+    position: absolute;
+    right: 100px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 8px
+    ;
+}
+
+section p {
+    font-weight: bold;
+    font-family: "Roboto Mono", serif;
+}
+
+section h1{
+    font-family: "Roboto Mono", serif;
+    font-size: 5em;
+    line-height: 1em;
+}
+
+section p.descricao {
+    color: hsl(0, 5%, 85%);
+    font-size: 12px;
+    text-align: right;
+    max-width: 400px;
+    
+}
+
+section button#saiba {
+    border-radius: 30px;
+    width: 120px;
+    background-color: #0b2e1d;
+    height: 35px;
+    text-transform: uppercase;
+    border: 2px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.indicador {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 200px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 15px;
+}
+
+.numero {
+    font-size: 3em;
+
+}
+
+div.indicador ul {
+    display: flex;
+    gap: 10px;
+}
+
+div.indicador a {
+    width: 50px;
+    height: 5px;
+    background-color: #58836e;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.ativo {
+    background-color: #fff;
+}
+div.setas {
+    width: 55vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25px);
+    display: flex;
+    justify-content: space-between;   
+}
+
+div.setas img {
+    width: 30px;
+    
+
+}
+
+div.setas button img.direito  {
+    transform: scale(-1);
+    
+}
+
+div.setas button {
+    top: 60%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+div.setas button:hover {
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+section div.lista div#item {
+    transform: translateX(100vw);
+    transition: 0.5s;
+    opacity: 0;
+
+}
+
+section div.lista div#item img {
+    transform: rotate(0);
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+
+.content {
+    transform: translateX(200px);
+    transition: 0.7s;
+    transition-delay: 0.3;
+}
+
+h1 {
+    transition-delay: 0.5s;
+}
+p.descricao {
+    transition-delay: 0.7s;
+}
+button.saiba {
+    transition-delay: 0.9s;
+}
+
+section div.lista div#item.active {
+    transform: translateX(0);
+    transition: 0.5s;
+    opacity: 1;
+}
+section div.lista div#item.active img {
+    transform: rotate(-18deg);
+    
+}
+section div.lista div#item.active .content {
+    transform: translateX(0);
+}
